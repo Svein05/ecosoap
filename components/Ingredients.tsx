@@ -26,7 +26,7 @@ const Ingredients: React.FC = () => {
     {
       icon: <OilIcon />,
       title: 'Aceite de Cocina Reciclado',
-      description: 'La base de nuestros jabones. Limpiado y purificado para darle una nueva vida útil, evitando la contaminación del agua.',
+      description: 'Le damos una segunda vida a lo que normalmente se considera residuo. Cada gota que reutilizamos evita la contaminación de miles de litros de agua y se convierte en un jabón sustentable.',
     },
     {
       icon: <GlycerinIcon />,
@@ -36,12 +36,12 @@ const Ingredients: React.FC = () => {
     {
       icon: <ScentIcon />,
       title: 'Esencias Aromáticas',
-      description: 'Aceites esenciales puros que aportan aromas delicados y propiedades terapéuticas para una experiencia única.',
+      description: 'Aportan fragancia y frescura a nuestros jabones, ofreciendo una experiencia agradable y duradera en cada uso.',
     },
     {
       icon: <NaturalIcon />,
       title: 'Aditivos Naturales',
-      description: 'Arcillas, hierbas y especias que añaden color, textura y beneficios extra para cada tipo de piel.',
+      description: 'El extra que hace que nuestros jabones no solo limpien, sino que también nutran y protejan tu piel.',
     },
   ];
 

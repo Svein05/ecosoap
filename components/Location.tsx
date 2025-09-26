@@ -28,10 +28,10 @@ const Location: React.FC = () => {
               <h3 className="text-2xl font-bold text-brand-green-800">Tienda y Taller Artesanal</h3>
             </div>
             <p className="text-gray-700 text-lg mb-2">
-              Avenida Siempreviva 742,
+              Avenida Libertad 1847,
             </p>
             <p className="text-gray-700 text-lg mb-4">
-              Springfield, Planeta Tierra.
+              Viña del Mar, Región de Valparaíso, Chile.
             </p>
             <p className="text-gray-500">
               Visítanos para conocer el proceso de creación y llévate un pedacito de naturaleza a casa. ¡Te esperamos con los brazos abiertos!
