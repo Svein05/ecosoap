@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
     const isProd = mode === 'production';
     
     return {
-      base: isProd ? '/jabones-de-aceite-reciclado/' : '/',
+      base: isProd ? '/ecosoap/' : '/',
       server: {
         port: 3000,
         host: '0.0.0.0',
