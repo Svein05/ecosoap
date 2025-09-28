@@ -4,7 +4,7 @@ import React from 'react';
 const Hero: React.FC = () => {
   return (
     <section id="inicio" className="relative h-screen flex items-center justify-center bg-brand-green-50 overflow-hidden">
-      <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url('https://picsum.photos/seed/soappic1/1920/1080')", opacity: 0.1 }}></div>
+      <div className="absolute inset-0 bg-cover bg-center" style={{ backgroundImage: "url(FondoPagina.jpg)", opacity: 0.1 }}></div>
       <div className="absolute inset-0 bg-gradient-to-t from-brand-green-50 via-brand-green-50/50 to-transparent"></div>
       
       <div className="relative z-10 text-center px-6">
