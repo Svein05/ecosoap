@@ -20,20 +20,23 @@ const Header: React.FC = () => {
   return (
     <header className={`sticky top-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/80 backdrop-blur-sm shadow-md' : 'bg-transparent'}`}>
       <div className="container mx-auto px-6 py-4">
-        <div className="flex justify-between items-center">
+        <div className="flex items-center justify-between">
           {/* Navegación izquierda */}
-          <nav className="flex items-center space-x-6">
-            <a href="#inicio" className="flex items-center space-x-2">
-              <LeafIcon className="w-8 h-8 text-brand-green-600" />
-              <span className="text-2xl font-serif font-bold text-brand-green-800">EcoEspuma</span>
-            </a>
+          <nav className="flex items-center space-x-6 flex-1">
             <a href="#ofertas" className="text-lg font-medium text-brand-green-800 hover:text-brand-green-600 transition-colors">Productos</a>
             <a href="#ubicacion" className="text-lg font-medium text-brand-green-800 hover:text-brand-green-600 transition-colors">Ubicación</a>
             <a href="#sobre" className="text-lg font-medium text-brand-green-800 hover:text-brand-green-600 transition-colors">Sobre Nosotros</a>
             <a href="#contacto" className="text-lg font-medium text-brand-green-800 hover:text-brand-green-600 transition-colors">Contacto</a>
           </nav>
+          {/* Logo centro */}
+          <div className="flex-1 flex justify-center">
+            <a href="#inicio" className="flex items-center space-x-2">
+              <LeafIcon className="w-8 h-8 text-brand-green-600" />
+              <span className="text-2xl font-serif font-bold text-brand-green-800">EcoEspuma</span>
+            </a>
+          </div>
           {/* Íconos derecha */}
-          <div className="flex items-center space-x-6">
+          <div className="flex items-center space-x-6 flex-1 justify-end">
             {/* Carrito */}
             <button className="relative">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-7 h-7 text-brand-green-700 hover:text-brand-green-600 transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
