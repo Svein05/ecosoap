@@ -23,7 +23,7 @@ const Header: React.FC = () => {
         <div className="flex justify-center items-center">
           <a href="#inicio" className="flex items-center space-x-2">
             <LeafIcon className="w-8 h-8 text-brand-green-600" />
-            <span className="text-2xl font-serif font-bold text-brand-green-800">EcoSoap</span>
+            <span className="text-2xl font-serif font-bold text-brand-green-800">EcoEspuma</span>
           </a>
         </div>
       </div>

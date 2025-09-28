@@ -6,46 +6,25 @@ import ProductCard from './ProductCard';
 const mockProducts: Product[] = [
   {
     id: 1,
-    name: 'Jabón de Lavanda Relajante',
-    description: 'Perfecto para un baño nocturno. Calma la mente y la piel con aceite esencial de lavanda.',
-    price: '$4.500',
-    imageUrl: 'https://picsum.photos/seed/soap1/400/400'
+    name: 'Jabón en Barra',
+    description: 'De manteca con aceite esencial de frutilla.',
+  price: "1200",
+    imageUrl: 'JabonBarra.jpg'
   },
   {
     id: 2,
-    name: 'Jabón de Cítricos Energizante',
-    description: 'Despierta tus sentidos con una mezcla vibrante de limón y naranja. Ideal para empezar el día.',
-    price: '$4.500',
-    imageUrl: 'https://picsum.photos/seed/soap2/400/400'
+    name: 'Lavaloza Industrial (1L)',
+    description: 'Limpieza profunda para uso industrial.',
+  price: "1200",
+    imageUrl: 'LavalozaIndustrial.jpg'
   },
   {
     id: 3,
-    name: 'Jabón de Avena Exfoliante',
-    description: 'Limpia y renueva tu piel suavemente con avena real y un toque de miel.',
-    price: '$5.000',
-    imageUrl: 'https://picsum.photos/seed/soap3/400/400'
-  },
-  {
-    id: 4,
-    name: 'Jabón de Eucalipto y Menta',
-    description: 'Una explosión de frescura que descongestiona y revitaliza. Perfecto para después del ejercicio.',
-    price: '$5.000',
-    imageUrl: 'https://picsum.photos/seed/soap4/400/400'
-  },
-   {
-    id: 5,
-    name: 'Jabón de Rosa Mosqueta',
-    description: 'Regenera e hidrata profundamente. Ideal para pieles maduras o con cicatrices.',
-    price: '$5.500',
-    imageUrl: 'https://picsum.photos/seed/soap5/400/400'
-  },
-  {
-    id: 6,
-    name: 'Jabón de Carbón Activado',
-    description: 'Purifica y detoxifica los poros, eliminando impurezas y dejando la piel radiante.',
-    price: '$5.500',
-    imageUrl: 'https://picsum.photos/seed/soap6/400/400'
-  },
+    name: 'Recarga para Lavaloza Industrial',
+    description: 'Recarga x Litro para Lavaloza Industrial.',
+  price: "630",
+    imageUrl: 'RecargaLavaloza.jpg'
+  }
 ];
 
 const Offers: React.FC = () => {
