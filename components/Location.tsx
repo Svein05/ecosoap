@@ -19,7 +19,7 @@ const Location: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center gap-10">
           <div className="w-full md:w-1/2">
             <div className="bg-gray-200 rounded-lg overflow-hidden shadow-lg">
-              <img src="/Ubicacion.jpg" alt="Mapa de la ubicación" className="w-full h-full object-cover"/>
+              <img src="Ubicacion.jpg" alt="Mapa de la ubicación" className="w-full h-full object-cover"/>
             </div>
           </div>
           <div className="w-full md:w-1/2 text-center md:text-left">

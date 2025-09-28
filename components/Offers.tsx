@@ -9,21 +9,21 @@ const mockProducts: Product[] = [
     name: 'Jabón en Barra',
     description: 'De manteca con aceite esencial de frutilla.',
   price: "1200",
-  imageUrl: '/JabonBarra.jpg'
+  imageUrl: 'JabonBarra.jpg'
   },
   {
     id: 2,
     name: 'Lavaloza Industrial (1L)',
     description: 'Limpieza profunda para uso industrial.',
   price: "1200",
-  imageUrl: '/LavalozaIndustrial.jpg'
+  imageUrl: 'LavalozaIndustrial.jpg'
   },
   {
     id: 3,
     name: 'Recarga para Lavaloza Industrial',
     description: 'Recarga x Litro para Lavaloza Industrial.',
   price: "630",
-  imageUrl: '/RecargaLavaloza.jpg'
+  imageUrl: 'RecargaLavaloza.jpg'
   }
 ];
 
